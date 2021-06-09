@@ -10,7 +10,7 @@ import com.example.capstone.entity.Report
 
 class RecyclerAdapter(private val listItem: ArrayList<Report>) : RecyclerView.Adapter<RecyclerAdapter.RecyclerViewHolder>()  {
 
-    fun setData(items: ArrayList<Report>) {
+    fun setData(items: List<Report>) {
         listItem.clear()
         listItem.addAll(items)
         notifyDataSetChanged()
