@@ -9,7 +9,7 @@ import com.example.capstone.R
 import com.example.capstone.databinding.ItemReportBinding
 import com.example.capstone.entity.Report
 
-class ReportAdapter(private val activity: Activity) : RecyclerView.Adapter<ReportAdapter.ReportViewHolder>()  {
+class ReportAdapter(private val activity: Activity?) : RecyclerView.Adapter<ReportAdapter.ReportViewHolder>()  {
 
     private lateinit var onClickListener: OnClickListener
 
